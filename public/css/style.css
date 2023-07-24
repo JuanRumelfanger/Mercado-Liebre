@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    font-family: 'Roboto', sans-serif;
+    background: #EAC926;
+    position: relative;
+}
+
+#container {
+    margin: auto;
+    max-width: 400px;
+
+}
+
+.list-des li {
+    list-style: none;
+}
+
+
+.info-text {
+    text-align: center;
+}
+
+.info-text i{
+    color: blue;
+}
+
+
+.form input{
+    margin-left: 100px;
+}
+
+.article h3 {
+    text-align: center;
+    font-size: 24px;
+}
+
+.text-end {
+    margin-left: 20px;
+}
+
+.info-text h3 {
+    padding: 10px;
+}
+
+.info-text p {
+    padding-bottom: 10px ;
+}

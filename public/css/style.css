@@ -1,52 +1,32 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+body{
+    font-family: 'Roboto';
 }
 
-#navbar {
-    font-family: 'Roboto', sans-serif;
-    background: #EAC926;
-    position: relative;
+header{
+    background-color: #EAC926;
+    font-family: 'Roboto';
 }
 
-#container {
-    margin: auto;
-    max-width: 400px;
-
+h3{
+    font-size: 18px;
 }
-
-.list-des li {
-    list-style: none;
-}
-
-
-.info-text {
-    text-align: center;
-}
-
-.info-text i{
-    color: blue;
-}
-
-
-.form input{
-    margin-left: 100px;
-}
-
-.article h3 {
-    text-align: center;
+#titulares{
     font-size: 24px;
 }
-
-.text-end {
-    margin-left: 20px;
+#promocion{
+    text-align: center;
+    color: black;
+    font-size: 14px;
 }
-
-.info-text h3 {
-    padding: 10px;
+#busqueda{
+   padding: 10%;
+   color: white;
 }
-
-.info-text p {
-    padding-bottom: 10px ;
+#opciones{
+    font-size: 16px;
+}
+.burger-menu{
+    color: blue;
+    text-align: center;
+    font-size: 30px;
 }

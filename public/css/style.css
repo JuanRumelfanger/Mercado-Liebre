@@ -6,7 +6,13 @@ header{
     background-color: #EAC926;
     font-family: 'Roboto';
 }
-
+main{
+    text-align: center;
+}
+footer{
+    font-size: 12px;
+    text-align: center;
+}
 h3{
     font-size: 18px;
 }
@@ -24,9 +30,21 @@ h3{
 }
 #opciones{
     font-size: 16px;
+} 
+#Copyright{
+    text-align: left;
+}
+#item-footer{
+    font-size: 30px;
+    color: blue;
 }
 .burger-menu{
     color: blue;
     text-align: center;
     font-size: 30px;
+}
+
+li.encabesado{
+    font-size: 16px;
+    font-weight: bolder;
 }

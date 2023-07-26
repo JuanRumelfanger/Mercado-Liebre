@@ -8,6 +8,7 @@ header{
 }
 main{
     text-align: center;
+    width: 90%;
 }
 footer{
     font-size: 12px;
@@ -38,13 +39,35 @@ h3{
     font-size: 30px;
     color: blue;
 }
-.burger-menu{
-    color: blue;
+div.burger-menu {
     text-align: center;
-    font-size: 30px;
+    font-size: 24px;
+    width: 28px;
+    padding: 8px;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: blue;
+  }
+
+.articulo{
+    margin: 10px 0px;
+    text-align: left;
+}
+
+#camion{
+    color: green;
 }
 
 li.encabesado{
     font-size: 16px;
     font-weight: bolder;
+}
+
+p.descuento{
+    color: green;
+    font-size: 12px;
+}
+p.modelo{
+    color: gray;
+    font-size: 15px;
 }

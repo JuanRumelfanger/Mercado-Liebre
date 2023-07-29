@@ -1,87 +1,135 @@
-body{
-    font-family: 'Roboto';
+html,
+body {
+  margin: 0;
+  box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+.w-50 {
+  width: 50%;
 }
 
-header{
-    background-color: #EAC926;
-    font-family: 'Roboto';
+.padding {
+  padding: 24px;
 }
-main{
-    text-align: center;
-    width: 90%;
+
+main {
+  width: 90%;
+  text-align: center;
+  margin: auto;
 }
 footer{
-    font-size: 12px;
-    text-align: center;
+  text-align: center;
+}
+#ml-main-nav ul {
+  list-style-type: none;
+  padding-left: 0;
 }
 
-h3{
-    font-size: 18px;
+#ml-main-nav a {
+  text-decoration: none;
+  color: black;
 }
-#titulares{
-    font-size: 24px;
+
+.burger-menu {
+  background-color: #1259c3;
+  text-align: center;
+  font-size: 24px;
+  width: 28px;
+  padding: 8px;
+  margin: 0 auto;
+  border-radius: 5px;
 }
-#promocion{
-    text-align: center;
-    color: black;
-    font-size: 14px;
+
+.banner {
+  width: 100%;
 }
-#busqueda{
-   padding: 10%;
-   color: white;
+
+/* Fonts & Texts */
+body {
+  font-family: "Roboto";
+  font-size: 12px;
 }
-#opciones{
-    font-size: 16px;
-} 
-#Copyright{
-    text-align: left;
-    margin-top: 50px;
+
+.text-title {
+  font-size: 24px;
 }
-#item-footer{
-    font-size: 30px;
-    color: blue;
+
+.text-price {
+  margin: 1px 0px;
+  font-size: 18px;
 }
-#garantia{
-    color: gray;
-    padding: 0px 70px;
+
+.text-discount {
+  margin: 1px 0px;
+  font-size: 16px;
 }
-article#condiciones{
-    margin: 60px 0px;
+
+.text-desc {
+  color: gray;
+  font-size: 14px;
 }
-div.burger-menu {
-    text-align: center;
-    font-size: 24px;
-    width: 28px;
-    padding: 8px;
-    margin: 0 auto;
-    border-radius: 5px;
-    background-color: blue;
+
+/* Colors ====================  */
+
+.ml-yellow-text {
+  color: #eac926;
+}
+.ml-blue-text {
+  color: #03264c;
+}
+.ml-lb-text {
+  color: #1259c3;
+}
+.ml-dark-text {
+  color: #666;
+}
+.ml-light-text {
+  color: #ebebeb;
+}
+.text-discount {
+  color: #39b54a;
+}
+
+.ml-yellow-bg {
+  background-color: #eac926;
+}
+.ml-blue-bg {
+  background-color: #03264c;
+}
+#ml-lb-bg {
+  color: blue;
+  font-size: 30px;
+}
+.ml-dark-bg {
+  background-color: #666;
+}
+.ml-light-bg {
+  background-color: #ebebeb;
+}
+#camionsito {
+  color: #39b54a;
+  font-size: 15px;      
+  margin: 1px 0px;
+}
+article{
+  margin: 10px 0px;
+}
+.product-description{
+  border: 1px solid #ebebeb;
+  padding: 1 px;
+  text-align: left;
+
+}
+
+@media(max-width: 361px){
+  #ml-main-nav ul {
+    display: none;
   }
-
-.articulo{
-    margin: 10px 0px;
-    text-align: left;
-    font-size: 20px;
+  .text-desc {
+    display: none;
+  }
 }
-
-#camion{
-    color: green;
-}
-
-li.encabesado{
-    font-size: 16px;
-    font-weight: bolder;
-    list-style-type: none;
-}
-p.descuento{
-    color: green;
-    font-size: 12px;
-}
-p.modelo{
-    color: gray;
-    font-size: 15px;
-}
-
-.imagen-articulo{
-    margin: 0px 90px ;
+@media(min-width: 362px){
+  .burger-menu {
+   display: none;
+  }
 }

@@ -33,7 +33,9 @@ body {
 .w-50 {
   width: 50%;
 }
-
+.ml-yellow-bg-padding{
+  background-color: #eac926;
+}
 .padding {
   padding: 24px;
 }
@@ -60,7 +62,7 @@ footer{
   background-color: #1259c3;
   text-align: center;
   font-size: 24px;
-  width: 28px;
+  width: 40px;
   padding: 8px;
   margin: 0 auto;
   border-radius: 5px;
@@ -75,7 +77,9 @@ body {
   font-family: "Roboto";
   font-size: 12px;
 }
-
+.ml-yellow-bg-padding{
+  background-color: #eac926;
+} 
 .text-title {
   font-size: 24px;
 }
@@ -97,6 +101,13 @@ body {
   text-align: left;
   margin-left: 50px;
 }
+.text-center{
+padding-left: 5px;
+}
+.search-bar{
+  margin-right: 5px;
+}
+
 
 /* Colors ====================  */
 
@@ -165,6 +176,16 @@ article{
   .text-desc {
     display: none;
   }
+  .w-50{
+    width: 50%;
+    padding:10px; 
+  }
+  .logo-and-leaceholder{
+    display: flex; 
+    padding: none;
+    margin-right: 60px;
+    justify-content: space-between;
+  }
 }
 @media(min-width: 362px){
   .burger-menu {
@@ -179,10 +200,32 @@ article{
     flex-wrap: wrap;
     justify-content: space-between;
   }
+  .camionsito{
+    padding-right: 20px;
+  }
   .product-desc{
     width: 50%;
     text-align: left;
     padding: 5px;
+  }
+  #ml-main-nav a {
+  text-decoration: none;
+  color: black;
+  }
+  .w-50{
+    width: 35%;
+    padding-right: 10px;
+  }
+  .logo-and-leaceholder{
+    display: flex;
+    padding: 20px 10px;
+  }
+  .text-center{
+    padding-top: 20px;
+    padding-left: 10px;
+  }
+  .search-section{
+    padding-top: 20px;
   }
 }
 
@@ -193,6 +236,9 @@ article{
     justify-content: space-around;
     flex-wrap: wrap;
     justify-content: space-between;
+  }
+  .camionsito{
+    padding-right: 20px;
   }
   .product-desc{
     width: 25%;

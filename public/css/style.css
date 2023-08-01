@@ -35,6 +35,7 @@ body {
 }
 .ml-yellow-bg-padding{
   background-color: #eac926;
+  
 }
 .padding {
   padding: 24px;
@@ -79,6 +80,7 @@ body {
 }
 .ml-yellow-bg-padding{
   background-color: #eac926;
+  padding-bottom: 20px;
 } 
 .text-title {
   font-size: 24px;
@@ -100,12 +102,13 @@ body {
   font-size: 14px;
   text-align: left;
   margin-left: 50px;
+  display: none;
 }
 .text-center{
 padding-left: 5px;
 }
 .search-bar{
-  margin-right: 5px;
+ height: auto;
 }
 
 
@@ -167,9 +170,14 @@ article{
   margin-left:50px ;
 }
 
+/*animation*/
 
+.images:hover{
+    display: contents;
+}
 
 @media(max-width: 361px){
+
   #ml-main-nav ul {
     display: none;
   }
@@ -177,15 +185,34 @@ article{
     display: none;
   }
   .w-50{
+    text-align: left;
     width: 50%;
-    padding:10px; 
+    padding:20px; 
+  }
+  .search-bar{
+    text-align: right;
+    margin-top: 20px;
   }
   .logo-and-leaceholder{
     display: flex; 
     padding: none;
-    margin-right: 60px;
     justify-content: space-between;
   }
+  .text-center{
+    display: flex;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    font-size: 12px;
+    padding-top: 15px;
+    margin-top: 65px;
+    padding-left: 70px;
+  }
+  .burger-menu{
+    justify-content: center;
+    margin-top: 45px;
+  }
+
 }
 @media(min-width: 362px){
   .burger-menu {
@@ -193,6 +220,13 @@ article{
   }
 }
 @media(min-width:720px){
+  *{
+    font-size: 14px;
+  }
+  .header{
+    padding: 5px;
+    position: relative;  
+  }
   .product{
     display: flex;
     margin: 50px 0px;
@@ -201,7 +235,7 @@ article{
     justify-content: space-between;
   }
   .camionsito{
-    padding-right: 20px;
+    padding-right: 50px;
   }
   .product-desc{
     width: 50%;
@@ -213,20 +247,50 @@ article{
   color: black;
   }
   .w-50{
-    width: 35%;
-    padding-right: 10px;
+    width: auto;
+    max-width: 300px;
+    margin:auto;
+    margin-left:10px;
+    
   }
   .logo-and-leaceholder{
     display: flex;
-    padding: 20px 10px;
+    margin: auto;
+    padding: 30px 10px;
   }
   .text-center{
-    padding-top: 20px;
-    padding-left: 10px;
+    margin: auto;
+    margin-right: 40px;
+    font-size: 15px;
   }
   .search-section{
-    padding-top: 20px;
+    display: inline-block;
+    max-width: 300px;
+    margin: auto;
   }
+  #ml-main-nav{
+    display: flex;
+    padding: 0px;
+  
+  }
+  ul.store-options{
+    display: flex;
+    margin: auto;
+   margin-left: 0px;
+  }
+  ul.store-options li{
+    padding: 0px 5px;
+  }
+  ul.user-options{
+    display: flex;
+    margin: auto;
+    margin-right: 0px;
+
+  }
+  ul.user-options li{
+    padding: 0px 5px;
+  }
+ 
 }
 
 @media(min-width:1366px){

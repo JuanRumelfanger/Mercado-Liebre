@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogIn</title>
+    <link rel="stylesheet" href="/public/css/index.css">
+    <script src="https://kit.fontawesome.com/52cd1fbf1c.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet"/>
+   
+</head>
+<body>
+    <form action="" method="post">
+
+        <label for="nombre-apellido">Nombre y apellido</label>
+        <input type="text" name="nombre-apellido" id="nombre-apellido" required><br>
+
+        <label for="nombre-de-usuario">Nombre de usuario</label>
+        <input type="text" name="nombre-de-usuario" id="nombre-de-usuario" required><br>
+
+        <h4>Fecha de nacimiento</h4>
+        <label for="fecha-de-nacimiento">fecha nacimiento</label>
+        <input type="date" name="fecha-de-nacimiento" id="fecha-de-nacimiento" required><br>
+        <label for="domicilio">domicilio</label>
+        <input type="text" name="domicilio" id="domicilio" required><br>
+
+        <h4>Selecione su perfil de usuario</h4>
+        <label for="vendedor-o-comprador">Vendedor</label>
+        <input type="radio" name="vendedor-o-comprador" id="vendedor-o-comprador" required><br>
+        <label for="vendedor-o-comprador">Comprador</label>
+        <input type="radio" name="vendedor-o-comprador" id="vendedor-o-comprador" required><br>
+
+        <h4>Seleccione sus categorias de interes</h4>
+        <label for="categorias">Electro</label>
+        <input type="checkbox" name="categorias-de-interes" value="categorias-de-interes" ><br>
+        <label for="categorias">Moda</label>
+        <input type="checkbox" name="categorias-de-interes" value="categorias-de-interes" ><br>
+        <label for="categorias">Hogar</label>
+        <input type="checkbox" name="categorias-de-interes" value="categorias-de-interes" ><br>
+        <label for="categorias">Jugueteria</label>
+        <input type="checkbox" name="categorias-de-interes" value="categorias-de-interes" ><br>
+        <label for="categorias">Vida Sana</label>
+        <input type="checkbox" name="categorias-de-interes" value="categorias-de-interes" ><br>
+        
+        <h4>Ingrese una fota de usuario</h4>
+        <input type="file" name="avatar" accept=".jpg, .png"><br>
+       
+       <h4>Ingrese su contraseña</h4>
+       <label for="password">
+        <input type="password" name="password" id="password" required>
+       </label>
+
+       <h4>Confirme su contraseña</h4>
+       <label for="password">
+        <input type="password" name="password" id="password" required>
+       </label><br>
+
+       <button type="reset">Borrar todo el formulario</button>
+       <button type="submit">Enviar formulario</button>
+       
+    </form>
+</body>
+</html>

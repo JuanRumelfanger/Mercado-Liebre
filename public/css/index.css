@@ -1,0 +1,10 @@
+*{
+    text-align: left;
+    font-family: 'Roboto';
+}
+body{
+    display: flex;
+    border: solid 5px yellow;
+    background-color: rgba(207, 245, 21, 0.5);
+    margin-left: 35px;
+}

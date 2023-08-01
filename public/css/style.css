@@ -1,4 +1,31 @@
 html,
+*{
+  margin: 0px;
+  padding: 0px;    
+  box-sizing: border-box;
+}
+
+.product-desc-box > #camionsito{
+  display: block;
+  font-size: 16px;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #39b54a;
+  background-color: #FFF;
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+  top: -15px;
+}
+
+.product-desc-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
 body {
   margin: 0;
   box-shadow: 0px 0px 10px rgb(100, 100, 100);
@@ -61,11 +88,14 @@ body {
 .text-discount {
   margin: 1px 0px;
   font-size: 16px;
+  padding-left:10px;
 }
 
 .text-desc {
   color: gray;
   font-size: 14px;
+  text-align: left;
+  margin-left: 50px;
 }
 
 /* Colors ====================  */
@@ -116,9 +146,17 @@ article{
 .product-description{
   border: 1px solid #ebebeb;
   padding: 1 px;
-  text-align: left;
-
+  
 }
+
+/*position-flex*/
+
+.values-products{
+  display: flex;
+  margin-left:50px ;
+}
+
+
 
 @media(max-width: 361px){
   #ml-main-nav ul {
@@ -131,5 +169,34 @@ article{
 @media(min-width: 362px){
   .burger-menu {
    display: none;
+  }
+}
+@media(min-width:720px){
+  .product{
+    display: flex;
+    margin: 50px 0px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .product-desc{
+    width: 50%;
+    text-align: left;
+    padding: 5px;
+  }
+}
+
+@media(min-width:1366px){
+  .product{
+    display: flex;
+    margin: 50px 0px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .product-desc{
+    width: 25%;
+    text-align: left;
+    padding: 5px;
   }
 }

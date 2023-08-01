@@ -192,6 +192,7 @@ article{
    display: none;
   }
 }
+
 @media(min-width:720px){
   .product{
     display: flex;
@@ -226,6 +227,30 @@ article{
   }
   .search-section{
     padding-top: 20px;
+  }
+  #ml-main-nav{
+    display: flex;
+    padding: 0px;
+  }
+  ul.store-options{
+    font-size: 12px;
+    padding-right: 230px;
+    display: flex; 
+    margin: 10px 5px;
+  }
+  ul.store-options li{
+    padding: 0px 5px;
+  }
+  ul.user-options{
+    font-size: 12px;
+    display: flex; 
+    margin: 10px 0px;
+  }
+  ul.user-options li{
+    padding: 0px 5px;
+  }
+  .banner{
+    width: 100%;
   }
 }
 

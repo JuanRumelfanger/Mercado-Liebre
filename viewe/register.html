@@ -11,38 +11,55 @@
    
 </head>
 <body>
-    <form action="" method="post">
+    <form action="" method="post" class="form-register">
 
-        <label for="nombre-apellido">Nombre y apellido</label>
-        <input type="text" name="nombre-apellido" id="nombre-apellido" required><br>
+<label for="nombre-apellido"></label>
+<input class="block-register"  type="text" id="dato" name="dato" pattern="[A-Za-z]+" title="El dato debe contener solo letras (mayúsculas o minúsculas)" placeholder="Nombre y apellido" required><br>
+        
+<label for="nombre-de-usuario"></label>
+<input class="block-register"  type="text" name="nombre-de-usuario" id="nombre-de-usuario" pattern="[A-Za-z]+" title="El dato debe contener solo letras (mayúsculas o minúsculas)" placeholder="Nombre de usuario"   required><br>
 
-        <label for="nombre-de-usuario">Nombre de usuario</label>
-        <input type="text" name="nombre-de-usuario" id="nombre-de-usuario" required><br>
+<label for="email"></label>
+<input class="block-register"  type="email" name="email" id="email" pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" title="El correo debe ser valido" placeholder="e-mail"   required><br>
+
 
         <h4>Fecha de nacimiento</h4>
-        <label for="fecha-de-nacimiento">fecha nacimiento</label>
-        <input type="date" name="fecha-de-nacimiento" id="fecha-de-nacimiento" required><br>
-        <label for="domicilio">domicilio</label>
-        <input type="text" name="domicilio" id="domicilio" required><br>
-
-        <h4>Selecione su perfil de usuario</h4>
-        <label for="vendedor-o-comprador">Vendedor</label>
-        <input type="radio" name="vendedor-o-comprador" id="vendedor-o-comprador" required><br>
-        <label for="vendedor-o-comprador">Comprador</label>
-        <input type="radio" name="vendedor-o-comprador" id="vendedor-o-comprador" required><br>
-
-        <h4>Seleccione sus categorias de interes</h4>
-        <label for="categorias">Electro</label>
-        <input type="checkbox" name="categorias-de-interes" value="categorias-de-interes" ><br>
-        <label for="categorias">Moda</label>
-        <input type="checkbox" name="categorias-de-interes" value="categorias-de-interes" ><br>
-        <label for="categorias">Hogar</label>
-        <input type="checkbox" name="categorias-de-interes" value="categorias-de-interes" ><br>
-        <label for="categorias">Jugueteria</label>
-        <input type="checkbox" name="categorias-de-interes" value="categorias-de-interes" ><br>
-        <label for="categorias">Vida Sana</label>
-        <input type="checkbox" name="categorias-de-interes" value="categorias-de-interes" ><br>
+    
+<label for="fecha-de-nacimiento"></label>
+<input class="block-register" type="date" name="fecha-de-nacimiento" id="fecha-de-nacimiento" pattern="[dd/mm/aaaa]" title="Ingrese una fecha valida" required><br>
         
+<label for="domicilio"></label>
+<input class="block-register" type="text" name="domicilio" id="domicilio" title="Ingrese una fecha valida" placeholder="Domicilio"  required><br>
+
+        <h4>Perfil de usuario</h4>
+        <div class="vendedor-o-comprador">
+            <label for="vendedor-o-comprador">Vendedor</label>
+            <input type="radio" name="vendedor-o-comprador" id="vendedor-o-comprador" required><br>
+        </div>
+        
+        <div class="vendedor-o-comprador">
+            <label for="vendedor-o-comprador">Comprador</label>
+            <input type="radio" name="vendedor-o-comprador" id="vendedor-o-comprador" required><br>
+        </div>
+
+        <h4>intereses</h4>
+    <ul class="interests-list">
+       <li><label for="categorias">Electro</label>
+        <input type="checkbox" name="categorias-de-interes" value="categorias-de-interes" ><br>
+       </li>  
+       <li><label for="categorias">Moda</label>
+        <input type="checkbox" name="categorias-de-interes" value="categorias-de-interes" ><br>
+       </li> 
+       <li><label for="categorias">Hogar</label>
+        <input type="checkbox" name="categorias-de-interes" value="categorias-de-interes" ><br>
+       </li> 
+       <li><label for="categorias">Jugteria</label>
+        <input type="checkbox" name="categorias-de-interes" value="categorias-de-interes" ><br>
+       </li> 
+       <li><label for="categorias">Vida Sana</label>
+        <input type="checkbox" name="categorias-de-interes" value="categorias-de-interes" ><br>
+       </li> 
+    </ul>    
         <h4>Ingrese una fota de usuario</h4>
         <input type="file" name="avatar" accept=".jpg, .png"><br>
        

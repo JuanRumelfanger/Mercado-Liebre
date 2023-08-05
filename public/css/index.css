@@ -1,10 +1,47 @@
 *{
-    text-align: left;
+    margin: auto;
     font-family: 'Roboto';
+    font-size: 15px;
 }
+
 body{
-    display: flex;
-    border: solid 5px yellow;
-    background-color: rgba(207, 245, 21, 0.5);
-    margin-left: 35px;
+    text-align: left;
+    border: solid gainsboro 3px ;
+    border-radius: 80px;
+}
+
+.form-register{
+    background-color: gainsboro;
+    margin: auto;
+    padding: 10px;
+    padding-left: 30px;
+}
+.form-register h4{
+    word-wrap: break-word;
+    margin: auto;
+    padding: 10px 0px;
+}
+.block-register{
+   display: block;
+   width: auto;
+   width: 200px;
+   margin: auto;
+   margin-left: 3px;
+   border: solid white 2px;
+   border-radius: 7%;
+}
+
+.vendedor-o-comprador{
+    display: inline-block;
+    padding: 0px;
+    margin: 15px;
+}
+
+.interests-list li{
+    list-style-type: none;
+    margin: auto;
+    padding:10px;
+}
+.interests-list{
+    padding: 0px
 }

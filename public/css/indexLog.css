@@ -1,0 +1,46 @@
+*{
+    margin: auto;
+    font-family: 'Roboto';
+    font-size: 15px;
+}
+.login-form{
+    display: block;
+    background-color: gainsboro;
+    margin: auto;
+}
+
+.block-user{
+    display: block;
+    width: 300px;
+    margin: auto;
+    padding: 8px;
+    border: solid white;
+    border-radius: 5px;
+}
+.block-password{
+    display: block;
+    width: 300px;
+    margin: auto;
+    padding: 8px;
+    border:  solid white;
+    border-radius: 5px;
+}
+
+.block-register{
+    padding-top:20px;
+    padding-bottom: 20px;
+    width: auto;
+    margin: auto;
+}
+
+.button-send{
+    display: block;
+    background-color: blue;
+    font-weight: 600;
+    font-size: 15px;
+    width: 300px;
+    margin: auto;
+    padding: 8px;
+    border:  solid blue;
+    border-radius: 5px;
+}

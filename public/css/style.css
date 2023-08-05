@@ -219,6 +219,7 @@ article{
    display: none;
   }
 }
+
 @media(min-width:720px){
   *{
     font-size: 14px;
@@ -271,6 +272,7 @@ article{
   #ml-main-nav{
     display: flex;
     padding: 0px;
+
   
   }
   ul.store-options{
@@ -278,6 +280,7 @@ article{
     margin: auto;
    margin-left: 0px;
   }
+
   ul.store-options li{
     padding: 0px 5px;
   }

@@ -36,7 +36,6 @@ body{
     padding: 0px;
     margin: 15px;
 }
-
 .interests-list li{
     list-style-type: none;
     margin: auto;
@@ -44,4 +43,15 @@ body{
 }
 .interests-list{
     padding: 0px
+}
+.password-user{
+    display: block;
+    margin: 5px 0px 5px 2px;
+    border: solid white 2px;
+    border-radius: 7%;
+}
+.buttom-send{
+    margin: 15px auto;
+    border: solid gainsboro 2px;
+    border-radius: 7%;
 }

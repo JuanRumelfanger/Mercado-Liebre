@@ -4,7 +4,6 @@ html,
   padding: 0px;    
   box-sizing: border-box;
 }
-
 .product-desc-box > #camionsito{
   display: block;
   font-size: 16px;
@@ -58,7 +57,12 @@ footer{
   text-decoration: none;
   color: black;
 }
-
+#garantia{
+  margin: 5px auto;
+}
+#condiciones{
+    margin: 25px auto;
+}
 .burger-menu {
   background-color: #1259c3;
   text-align: center;
@@ -132,7 +136,6 @@ padding-left: 5px;
 .text-discount {
   color: #39b54a;
 }
-
 .ml-yellow-bg {
   background-color: #eac926;
 }
@@ -142,6 +145,7 @@ padding-left: 5px;
 #ml-lb-bg {
   color: blue;
   font-size: 30px;
+  margin: 15px auto;
 }
 .ml-dark-bg {
   background-color: #666;

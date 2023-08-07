@@ -13,6 +13,8 @@
 <body>
     <form action="" method="post" class="form-register">
 
+        <h4>Info. usuario</h4>
+
 <label for="nombre-apellido"></label>
 <input class="block-register"  type="text" id="dato" name="dato" pattern="[A-Za-z]+" title="El dato debe contener solo letras (mayúsculas o minúsculas)" placeholder="Nombre y apellido" required><br>
         
@@ -64,18 +66,18 @@
         <input type="file" name="avatar" accept=".jpg, .png"><br>
        
        <h4>Ingrese su contraseña</h4>
-       <label for="password">
-        <input type="password" name="password" id="password" required>
-       </label>
-
-       <h4>Confirme su contraseña</h4>
-       <label for="password">
-        <input type="password" name="password" id="password" required>
-       </label><br>
-
-       <button type="reset">Borrar todo el formulario</button>
-       <button type="submit">Enviar formulario</button>
        
+       <label for="password"> </label>
+       <input type="password" name="password" class="password-user" id="password" placeholder="Contraseña" required>
+      
+       <h4>Confirme su contraseña</h4>
+
+       <label for="password"> </label>
+       <input type="password" name="password" id="password" class="password-user" placeholder="Contraseña" required>
+       
+       <input type="submit" class="buttom-send">
+       <input type="reset" class="buttom-send">
+    
     </form>
 </body>
 </html>

@@ -23,6 +23,7 @@ html,
   display: flex;
   flex-direction: column;
   text-align: left;
+
 }
 
 body {
@@ -170,14 +171,15 @@ article{
 /*position-flex*/
 
 .values-products{
-  display: flex;
+  display: none;
+  position: relative;
   margin-left:50px ;
 }
 
 /*animation*/
 
 .images:hover{
-    display: contents;
+    display: block;
 }
 
 @media(max-width: 361px){

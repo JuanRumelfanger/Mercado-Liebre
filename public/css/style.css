@@ -180,7 +180,9 @@ article{
 .product-desc:hover{
  box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.2)
 }
-
+#ml-lb-bg:hover{
+  color: #1896fe;
+}
 @media(max-width: 361px){
 
   #ml-main-nav ul {
@@ -301,7 +303,7 @@ article{
  
 }
 
-@media(min-width:1366px){
+@media(min-width:1300px){
   .product{
     display: flex;
     margin: 50px 0px;
@@ -316,5 +318,15 @@ article{
     width: 25%;
     text-align: left;
     padding: 5px;
+  }
+  .section-fotter{
+    display: flex;
+  }
+  footer h3{
+    text-align: left;
+    margin-left: 10px;
+  }
+  #condiciones h3{
+    text-align: center;
   }
 }

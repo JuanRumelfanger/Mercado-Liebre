@@ -35,12 +35,17 @@
 
 .button-send{
     display: block;
-    background-color: blue;
+    background-color: rgb(87, 87, 247);
     font-weight: 600;
     font-size: 15px;
     width: 300px;
     margin: auto;
     padding: 8px;
-    border:  solid blue;
+    border:  solid rgb(87, 87, 247);    
     border-radius: 5px;
+}
+
+.button-send:hover{
+    border:  solid #0022AA;   
+    background-color: #0022AA;
 }

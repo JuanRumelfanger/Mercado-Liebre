@@ -95,7 +95,6 @@ body {
   margin: 1px 0px;
   font-size: 18px;
 }
-
 .text-discount {
   margin: 1px 0px;
   font-size: 16px;
@@ -106,8 +105,7 @@ body {
   color: gray;
   font-size: 14px;
   text-align: left;
-  margin-left: 50px;
-  display: none;
+  margin-left: 10px;
 }
 .text-center{
 padding-left: 5px;
@@ -158,6 +156,7 @@ padding-left: 5px;
   color: #39b54a;
   font-size: 15px;      
   margin: 1px 0px;
+  transition: transform 0.5s ease-in-out;
 }
 article{
   margin: 10px 0px;
@@ -167,19 +166,19 @@ article{
   padding: 1 px;
   
 }
-
-/*position-flex*/
-
 .values-products{
   display: none;
-  position: relative;
-  margin-left:50px ;
 }
-
 /*animation*/
 
-.images:hover{
-    display: block;
+.product-desc:hover .values-products{
+  display: flex;
+}
+#camionsito:hover{
+  transform: rotate(-90deg);
+}
+.product-desc:hover{
+ box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.2)
 }
 
 @media(max-width: 361px){

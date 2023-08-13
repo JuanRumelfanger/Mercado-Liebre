@@ -172,7 +172,7 @@ article{
 /*animation*/
 
 .product-desc:hover .values-products{
-  display: flex;
+  display: block;
 }
 #camionsito:hover{
   transform: rotate(-90deg);

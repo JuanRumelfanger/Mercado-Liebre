@@ -321,6 +321,7 @@ article{
   }
   .section-fotter{
     display: flex;
+    margin-top: 30px;
   }
   footer h3{
     text-align: left;

@@ -10,6 +10,6 @@ app.use(express.static(publicPtah));
 const port= process.env.PORT || 3001;
 app.listen(port, ()=>console.log("Servidor corriendo en puerto "+port  ));
 
-app.get("/home",(req,res)=>{
-    res.sendFile(path.resolve(__dirname, "./views/home.html"))
+app.get("/",(req,res)=>{
+    res.sendFile(path.resolve(__dirname, "views/home.html"))
 })
